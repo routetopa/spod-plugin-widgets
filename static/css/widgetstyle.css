@@ -1,0 +1,65 @@
+div.split {
+     display: flex;
+     width: 100%;
+     margin-top: 1.5em;
+ }
+
+div.activities {
+    width: 50%;
+}
+
+div.activities p {
+    margin-bottom: 16px;
+}
+
+div.activities b {
+    color:#2196F3;
+}
+
+div.datalet {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    /*color: #FFFFFF;*/
+}
+
+div.datalet-2 {
+    width: 50%;
+    /* color: #FFFFFF;*/
+}
+
+div.explorer {
+    border-top: 2px solid #2196F3;
+    margin: 16px 0px 16px 0px;
+    padding-top: 16px;
+}
+
+div.explorer img {
+    float: left;
+    width: 100px;
+}
+
+
+div.datasets_instructions {
+    margin-left: 116px;
+    height: 94px;
+}
+
+div.datasets_instructions h4 {
+    padding-top: 16px;
+}
+
+h4 {
+    margin: 0px 0px 16px 0px;
+}
+
+div.explorer ul{
+    list-style-type: square;
+    padding-left: 32px;
+}
+
+
+
+
+
+

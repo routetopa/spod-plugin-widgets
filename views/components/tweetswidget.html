@@ -1,0 +1,17 @@
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+{if $text}
+    <div class="split">
+        <div class="activities">
+        <a class="twitter-timeline" width="300"
+            height="300"  data-chrome="nofooter " data-link-color="#820bbb" data-border-color="#a80000" href= {$text}> </a>
+        </div>
+    </div>
+{else}
+<div class="ow_nocontent">
+    {text key="spodwidgets+html_widget_no_content"}
+</div>
+{/if}
+
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plugin>
+    <name>SPOD Widgets</name>
+    <key>spodwidgets</key>
+    <description>This plugin is for administrator for activate new widgets.</description>
+    <author>ISISLAB</author>
+    <authorEmail>isislab@routetopa.eu</authorEmail>
+    <authorUrl>http://www.isislab.it</authorUrl>
+    <developerKey>2b810a795fa9b5b5d138ac0652de1a7e</developerKey>
+    <build>1111</build>
+    <copyright>The ROUTE-TO-PA Project</copyright>
+    <license>The MIT License</license>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+</plugin>

@@ -1,0 +1,24 @@
+
+<div class="split">
+    <div class="datalet">
+        <p>
+            {text key='spodwidgets+datalet_description'}
+        </p>
+            {if !empty($latestDatalet)}
+            <link rel="import" href="{$components_url}datalets/{$latestDatalet['component']}/{$latestDatalet['component']}.html" />
+            <{$latestDatalet['component']}
+            fields='[{$latestDatalet['fields']}]'
+            {$latestDatalet['parameters']}
+            export_menu="0">
+        </{$latestDatalet['component']}>
+        {/if}
+
+    </div>
+</div>
+
+
+<script>
+    $(function () {
+        $(window).resize();
+    });
+</script>
