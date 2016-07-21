@@ -5,7 +5,8 @@ div.split {
  }
 
 div.activities {
-    width: 50%;
+    width: 100%;
+    background-color: #ffffff;
 }
 
 div.activities p {
@@ -17,9 +18,10 @@ div.activities b {
 }
 
 div.datalet {
-    width: 40%;
+    width: 100%;
     height: 100%;
     overflow: hidden;
+    background-color: #ffffff;
     /*color: #FFFFFF;*/
 }
 

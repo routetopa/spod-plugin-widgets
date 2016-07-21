@@ -47,7 +47,7 @@ class SPODWIDGETS_CMP_Activitiesroomswidget extends BASE_CLASS_Widget
     public static function getStandardSettingValueList()
     {
         return array(
-            self::SETTING_TITLE => 'Agora Activities!',
+            //self::SETTING_TITLE => 'Agora Activities!',
             self::SETTING_TITLE => OW::getLanguage()->text('spodwidgets', 'activities_title'),
             self::SETTING_ICON => self::ICON_COMMENT
         );
