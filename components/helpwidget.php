@@ -39,8 +39,7 @@ class SPODWIDGETS_CMP_Helpwidget extends BASE_CLASS_Widget
         parent::__construct();
 
         $text = OW::getLanguage()->text('spodwidgets', 'help_links_contents');
-        //$text = str_replace('</li>', "</li>\n", $text); //if the tags are written in a line it is necessary to make a compulsory hyphenation?
-
+        OW::getDocument()->addStyleSheet(OW::getPluginManager()->getPlugin('spodwidgets')->getStaticCssUrl() . 'widgetstyle.css');
         
         $this->assign('text', $text);
     }
