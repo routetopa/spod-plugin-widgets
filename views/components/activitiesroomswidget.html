@@ -3,7 +3,7 @@
         {if !empty($latestPublicRooms)}
         <p>
             {text key='spodwidgets+last_room'}
-            <a href="public-room/#!/{$latestPublicRooms.0->id}">{$latestPublicRooms.0->subject}</a>.
+            <a href="agora/{$latestPublicRooms.0->id}">{$latestPublicRooms.0->subject}</a>.
         </p>
         {/if}
     </div>

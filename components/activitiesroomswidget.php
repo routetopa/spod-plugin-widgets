@@ -71,8 +71,7 @@ class SPODWIDGETS_CMP_Activitiesroomswidget extends BASE_CLASS_Widget
             $example->setLimitClause(0, $count);
         }
 
-        $rooms = SPODPUBLIC_BOL_PublicRoomDao::getInstance()->findListByExample($example);
-
+        $rooms = SPODAGORA_BOL_AgoraRoomDao::getInstance()->findListByExample($example);
         $this->assign('latestPublicRooms', $rooms);
     }
 
